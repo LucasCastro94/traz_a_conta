@@ -12,6 +12,7 @@ Um  aplicativo para você calcular os seus gastos em um estabelecimento de forma
 
 * Material Designer
 
+![logo](https://github.com/LucasCastro94/traz_a_conta/blob/master/src/screenshot.png)
   
 
   
