@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/bg_custom_edititem"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/arvo"
+        android:gravity="center"
+        android:text="Nome"
+        android:textSize="20dp"
+        android:textColor="@color/white" />
+    <EditText
+        android:id="@+id/edit_name_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue"
+        android:inputType="textAutoComplete"
+        android:layout_margin="9dp"
+        android:hint="Digite aqui"
+        android:maxLength="18"
+        android:textColorHint="@color/gray"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:fontFamily="@font/arvo"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        />
+    <EditText
+        android:id="@+id/edit_value_list"
+        android:layout_width="match_parent"
+        android:layout_margin="9dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:inputType="number"
+        android:maxLength="12"
+        android:backgroundTint="@color/blue"
+        android:textColorHint="@color/gray"
+        android:hint="Digite aqui"
+        />
+
+<Button
+    android:id="@+id/btn_update_edit_list"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="9dp"
+    android:text="Atualizar"
+    android:background="@drawable/bg_custom_edititem"
+    app:backgroundTint="@null"
+    android:layout_gravity="center"
+    />
+
+
+</LinearLayout>

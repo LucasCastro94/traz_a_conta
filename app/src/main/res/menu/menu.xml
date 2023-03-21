@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item android:title="filter"
+    android:icon="@drawable/icon_filter"
+    app:showAsAction="always">
+    <menu>
+        <item android:title="Prec. Desc"
+            app:showAsAction="collapseActionView"
+            android:id="@+id/tollbar_prec_desc"/>
+
+        <item android:title="Prec. Cres"
+            app:showAsAction="collapseActionView"
+            android:id="@+id/tollbar_prec_cresc"/>
+
+        <item android:title="Alfabética"
+            app:showAsAction="collapseActionView"
+            android:id="@+id/tollbar_ordem_alfabetica"/>
+
+        <item android:title="Inserção"
+            app:showAsAction="collapseActionView"
+            android:id="@+id/tollbar_entrada"/>
+
+
+    </menu>
+
+
+
+
+
+
+</item>
+
+</menu>

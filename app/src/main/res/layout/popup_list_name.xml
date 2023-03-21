@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="250dp"
+    android:background="@drawable/bg_custom_edititem"
+    >
+
+    <TextView
+        android:id="@+id/texview"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:fontFamily="@font/bevan"
+        android:gravity="center"
+        android:text="Nome da conta"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/input_popup_name_id"
+        android:layout_margin="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite aqui"
+        android:textColorHint="@color/gray"
+        android:backgroundTint="@color/blue"
+        android:inputType="textAutoComplete"
+        android:textColor="@color/white"
+        android:singleLine="true"
+        android:maxLength="18"
+        app:layout_constraintTop_toBottomOf="@+id/texview"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <Button
+        android:id="@+id/btn_popup"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@null"
+        android:background="@drawable/bg_custom_edititem"
+        android:text="salvar"
+        app:layout_constraintTop_toBottomOf="@+id/input_popup_name_id"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="30dp"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
